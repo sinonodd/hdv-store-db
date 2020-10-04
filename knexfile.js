@@ -11,4 +11,8 @@ module.exports = {
       database : 'hdv-store'
     }
   },
+  production: {
+    client: 'pg',
+    connection: process.env.DATABASE_URL
+  }
 };
