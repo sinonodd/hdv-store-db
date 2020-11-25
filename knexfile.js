@@ -7,7 +7,7 @@ module.exports = {
     connection: {
       host : 'localhost',
       user : 'postgres',
-      password : 'postgres',
+      password: 'postgres',
       database : 'hdv-store'
     }
   },

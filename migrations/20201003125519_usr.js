@@ -6,7 +6,7 @@ exports.up = function(knex,promise) {
       table.integer('phone').notNullable();
       table.text('email').notNullable();
       table.text('img_url');
-      table.text('goole_id').notNullable();
+      table.text('google_id').notNullable();
       table.boolean('banned').notNullable().default(false);
   })    
 };
